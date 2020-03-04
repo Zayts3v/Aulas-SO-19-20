@@ -2,7 +2,15 @@ CC = gcc
 
 CFLAGS = -Wall
 
-all: print_args open_file write_file mycp mycat
+all: print_args open_file write_file mycp mycat readlnOne readln readn1One readn1
+
+readn1: readn1.c
+
+readn1One: readn1One.c
+
+readln: readln.c
+
+readlnOne: readlnOne.c
 
 print_args: print_args.c
 
@@ -15,4 +23,4 @@ mycp: mycp.c
 mycat: mycat.c
 
 clean:
-	rm *.o print_args open_file write_file mycp mycat *.txt
+	rm *.o print_args open_file write_file mycp mycat readlnOne readln readn1 readn1One
