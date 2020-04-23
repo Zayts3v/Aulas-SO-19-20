@@ -41,3 +41,4 @@ Usam-se os comandos ```time ./readn1One teste_reads.txt``` e ```time ./readn1 te
 
 ### .6
 
+### .7
